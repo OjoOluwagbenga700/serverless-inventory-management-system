@@ -4,7 +4,9 @@ This project demonstrates how to build a clean and scalable full-stack **invento
 
 ## 📁 Project Architecture
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yd1upj6blbppfcqzhsuk.png)
+![image](https://github.com/user-attachments/assets/a9689f50-eb14-4701-8eac-aadc1da690bd)
+
+
 
 This project is a fully serverless full-stack **inventory management system** built using:
 
@@ -76,7 +78,10 @@ terraform apply --auto-approve
 
 After successful application, Terraform will output the API Gateway endpoint URL
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4ow1llj30iebm0f7ujd0.png)
+![image](https://github.com/user-attachments/assets/2b5d227e-30a1-4802-97c8-8e54820db146)
+
+
+
 
 ```bash
 api_gateway_url = "https://i5mmj6bhw1.execute-api.us-east-1.amazonaws.com"
@@ -124,10 +129,13 @@ npm install
 npm start
 ```
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y57dlmcujh3ngrvt4j71.png)
+![image](https://github.com/user-attachments/assets/5f01749f-653e-4ea4-8f17-660fee954358)
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/164e2xd1om13nv6jlmjh.png
+
+![image](https://github.com/user-attachments/assets/9ed71285-79d0-46ed-bfba-618fdda9dc48)
+
+
 
 
 **Conclusion**
