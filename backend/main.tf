@@ -10,7 +10,7 @@ module "lambda" {
   source              = "./terraform/modules/lambda"
   lambda_role_arn     = module.iam.lambda_role_arn
   dynamodb_table_name = var.dynamodb_table_name
-  
+
   # Ensure IAM roles are created before Lambda
   depends_on = [module.iam]
 }
@@ -20,7 +20,7 @@ module "iam" {
   source              = "./terraform/modules/iam"
   region              = var.region
   dynamodb_table_name = var.dynamodb_table_name
-  
+
   # Ensure S3 and DynamoDB resources exist before creating IAM policies
   depends_on = [module.dynamodb]
 }

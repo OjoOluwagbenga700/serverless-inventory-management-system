@@ -1,7 +1,7 @@
 // src/services/api.js
 // API Gateway integration layer
 
-const API_ENDPOINT = 'https://bh3n53cbx8.execute-api.us-east-1.amazonaws.com';
+const API_ENDPOINT = 'https://i5mmj6bhw1.execute-api.us-east-1.amazonaws.com';
 
 // Fetch all inventory items
 export async function fetchItems() {
